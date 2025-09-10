@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Krishna
+            Krishna's URL Shortner
           </Title>
 
           <Text
