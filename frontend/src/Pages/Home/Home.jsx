@@ -53,7 +53,8 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            spenzer
+            
           </Title>
 
           <Text
