@@ -1,6 +1,4 @@
 import React, { use, useEffect, useState } from 'react'
-
-
 import Service from '../utils/http'
 import { Center, Text } from '@mantine/core';
 const obj = new Service();
