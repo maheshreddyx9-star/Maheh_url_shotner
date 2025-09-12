@@ -73,7 +73,7 @@ export default function UrlForm(props) {
                generateShortUrl(data);
              }}
              disabled = {data?.originalUrl?.length>10?false:true}
-             my="md" color={"red"}> Generate Short Url </Button>
+             my="md" color={"orange"}> Generate Short Url </Button>
  
          </Container>
      )
