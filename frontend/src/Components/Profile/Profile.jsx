@@ -26,20 +26,20 @@ export default function Profile() {
 
   if (loading) {
     return (
-      <Center style={{ marginTop: "50px" }}>
-        <Loader size="lg" color="yellow" />
+      <Center style={{ marginTop: "80px" }}>
+        <Loader size="lg" color="lime" />
       </Center>
     );
   }
 
   return (
-    <Center style={{ marginTop: "60px" }}>
-      <Card shadow="md" padding="xl" radius="lg" withBorder style={{ width: 450, textAlign: "center" }}>
+    <Center style={{ marginTop: "80px" }}>
+      <Card shadow="lg" padding="xl" radius="lg" withBorder style={{ width: 450, textAlign: "center" }}>
         {/* Profile Picture */}
         <Avatar
           src={
-            
             "https://i.redd.it/4gxn2898h1j61.jpg"
+            
           }
           alt={user?.name}
           size={350}
@@ -47,7 +47,7 @@ export default function Profile() {
           style={{ margin: "0 auto" }}
         />
 
-        <Stack spacing="xs" mt="md" >
+        <Stack spacing="xs" mt="md">
           {/* Name */}
           <Text size="xl" weight={700} style={{ textTransform: "uppercase" }}>
             {user?.name}
