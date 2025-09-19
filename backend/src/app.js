@@ -31,7 +31,7 @@ connectDB();
 
 app.use("/api/auth", authRouter);
 
-
+//app.use("/api/s",shortUrlRouter);
 app.use(express.static(path.join(__dirname, "../../frontend/dist")));
 
 app.get("/*name", (req, res) => { res.sendFile(path.join(__dirname, "../../frontend/dist/index.html")) });
